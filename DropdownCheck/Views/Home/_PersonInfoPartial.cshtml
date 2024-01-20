@@ -1,0 +1,11 @@
+﻿@model Person
+
+@if (Model != null)
+{
+    <h4>Information for @Model.Name:</h4>
+    <p>@Model.Information</p>
+}
+else
+{
+    <p>No information available.</p>
+}
